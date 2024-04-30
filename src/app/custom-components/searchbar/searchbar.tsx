@@ -22,7 +22,7 @@ const featureSearchMap = {
     3: "Enter a Full CFG Description"
 };
 
-export default function SearchBar({ search, searchState, featureTab, isAuthenticated, collapsed } : {search: AnyFunction, searchState: Boolean, featureTab: 0 | 1 | 2 | 3, isAuthenticated: String, collapsed: Boolean}) {
+export default function SearchBar({ search, searchState, featureTab, isAuthenticated, collapsed } : {search: Function, searchState: Boolean, featureTab: 0 | 1 | 2 | 3, isAuthenticated: String, collapsed: Boolean}) {
     const { getSearchText, setSearchText } = useSearchStore();
     // Gets current tab for
     const { currentTab } = useFeatureTabStore();
