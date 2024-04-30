@@ -2,14 +2,6 @@ import { NextResponse, NextRequest } from "next/server";
 import snowflake from 'snowflake-sdk'
 import db from '@/lib/db';
 
-export const config = {
-  api: {
-    // disable nextjs's body parser while deployed
-    // (as body parsing is handled by `https.onRequest()`),
-    // but enable it for local development using `next dev`
-    bodyParser: process.env.NODE_ENV !== 'production',
-  }
-}
 
 export async function GET(request: NextRequest) {
   await db.prepare();
@@ -79,5 +71,5 @@ export async function GET(request: NextRequest) {
     },
   });
 
-  return new NextResponse(stream, { headers: { "Content-Type": "application/json" } });
+  return new NextResponse(stream, { headers: { "Content-Type": "application/json" }, status: 200 });
 }
