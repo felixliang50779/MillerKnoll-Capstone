@@ -1,5 +1,4 @@
 import { NextResponse, NextRequest } from "next/server";
-import snowflake from 'snowflake-sdk'
 import db from '@/lib/db';
 import { componentSearch } from './functions';
 
