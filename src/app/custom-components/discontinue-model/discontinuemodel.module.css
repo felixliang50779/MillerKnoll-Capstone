@@ -1,0 +1,46 @@
+.datamodel-card {
+    background-color: rgb(226, 232, 240);
+    padding: 1.25rem;
+    margin: 1.25rem;
+    border-radius: 0.2em;
+}
+
+.datamodel-content {
+    overflow-y: scroll;
+    max-height: 90vh;
+    min-width: 50vw;
+}
+
+.datamodel-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.datamodel-title {
+    text-align: center;
+}
+
+.datamodel-section-container {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.datamodel-discontinue-button {
+    padding: 1em;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0.4em;
+}
+
+.datamodel-itemid:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.lime-background {
+    background-color: #7cb46b;
+}
+
+.lime-background:hover {
+    background-color: #7cb46b;
+}

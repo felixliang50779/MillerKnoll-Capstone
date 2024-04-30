@@ -1,0 +1,108 @@
+.dashboard-container {
+    display: flex;
+    width: 100%;
+    font-family: "Meta";
+    gap: 4vw;
+    height: 100vh;
+}
+
+.expanded-dashboard {
+    gap: 0.2vw !important;
+}
+
+.sidebar-container {    
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    max-width: 25vw;
+    margin-right: 1.5em;
+}
+
+.sidebar-link {
+    color: white;
+    text-decoration: none;
+    padding: 2em 0 0 0;
+    font-size: 1.5em;
+}
+
+.search-results-holder {
+    display: flex;
+    flex-direction: column;
+    background-color: #edededed;
+    font-family: "MarkPro";
+    height: 75vh;
+    width: 72vw;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em 0.1em #dee1e2;
+}
+
+.expanded-table {
+    width: 89vw;
+}
+
+.table-container {
+    border: 0.03em solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.discontinue-table {
+    caption-side: top;
+}
+
+.headerContainer {
+    font-size: 1.5em;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:.5em;
+}
+
+.csvButton{
+    font-size: 1em;
+    background-color:#1d1d1d;
+    color:white;
+    padding:.35em .5em;
+    border-radius: .5em;
+    font-size:.75em;
+    text-align: center;
+}
+
+.table-caption {
+    background-color: #F3F6F9;
+    padding: 1em;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.required-part {
+    background-color: #F97B7B;
+}
+
+
+@media only screen and (max-width: 60em) {
+    .dashboard-container {
+        display: flex;
+        width: 100%;
+        font-family: "Meta";
+        gap: 25vw;
+        height: 100vh;
+    }
+}
+
+/* for spinning loading icon */
+.loading-icon {
+    animation: spin 1s linear infinite;
+    margin: 2em;
+}
+
+/* for spinning loading icon */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

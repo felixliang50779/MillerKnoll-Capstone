@@ -1,0 +1,34 @@
+/* Navbar CSS starts */
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.dropdown {
+    padding: 0.6em;
+}
+
+.search-container {
+    display: flex;
+    font-family: "MarkPro";
+    font-weight: bold;
+    gap: 1em;
+}
+
+.search-bar {
+    font-size: 1em;
+    min-width: 18vw;
+}
+
+.search-bar::placeholder {
+    font-size: 0.9em;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+/* Navbar CSS ends */

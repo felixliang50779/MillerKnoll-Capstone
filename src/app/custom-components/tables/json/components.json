@@ -1,0 +1,18 @@
+{
+    "ID": "1B8MR0-04018 Fabric-Mesh B4W2598",
+    "name": "0263/4070S",
+    "supplier": {
+        "ID": "09910",
+        "name": "JIREH METAL PRODUCTS"
+    },
+    "manufacturer": {
+        "ID": "BUJWBFIU6",
+        "name": "Greenhouse Seating"
+    },
+    "product": "CQ51MA985YC9BMP4W25",
+    "component": "1B8MR0-04018 Fabric-MeshB4W2598",
+    "description": "BLANK FOR 1513/4070S",
+    "Safety Stock": 15,
+    "MOQ": 200,
+    "On Hand Inventory": 296
+}

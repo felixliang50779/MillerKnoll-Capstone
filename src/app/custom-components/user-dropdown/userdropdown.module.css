@@ -1,0 +1,39 @@
+.dropdown-container {
+    display: flex;
+    margin-right: 0.5vw;
+    align-items: center;
+    font-size: 1.1em;
+    gap: 0.5vw;
+}
+
+.user-icon {
+    display: flex;
+    transform: scale(150%);
+}
+
+.dropdown-content {
+    margin-top: 0.5vh;
+    margin-right: 2vw;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 0.1em 0.1em 0;
+    transform: rotate(135deg);
+    transition: transform 0.5s;
+    padding: 0.2em;
+}
+
+.dropdown-content-compact {
+    margin-top: 0.5vh;
+    margin-right: 1.5vw;
+}
+
+.dropdown-content-expanded {
+    margin-top: 0.5vh;
+    margin-right: 4.5vw;
+}
+
+.dropdown-active {
+    transform: rotate(45deg) translateY(-0.1em);
+}

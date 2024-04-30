@@ -1,0 +1,33 @@
+.tooltip {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.help-button-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5vh 0vw;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: 0.05em dashed rgba(255, 255, 255, 1);
+    border-radius: 0.5em;
+    margin-top: 11.5vh;
+    margin-right: 1vw;
+    padding: 0.5vh 1vw;
+}
+
+.help-button-container:hover {
+    border: 0.05em solid rgba(255, 255, 255, 1);
+    background-color: rgba(239, 239, 240, 0.1);
+}
+
+.help-button-icon {
+    transform: scale(105%);
+}
+
+.help-button {
+    margin-top: 0.05em;
+    font-size: 1em;
+}

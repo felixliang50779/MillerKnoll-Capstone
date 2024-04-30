@@ -1,0 +1,136 @@
+/* Product Card Styles */
+.product-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #edededed;
+    font-family: "MarkPro";
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em 0.1em #dee1e2;
+}
+
+.product-card-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: flex-start; 
+    margin: 2%;
+    width: 50%;
+}
+
+.product-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
+    margin: 2% 0 2% 2%;
+}
+
+.product-subtitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+    margin: 2% 0 2% 2%;
+}
+
+.product-image {
+    max-width: 100%;
+  max-height: 100%;
+    margin: 0 0 2% 2%;
+    border-radius: 5%;
+    filter: drop-shadow(0 0 0.3rem black);
+}
+
+
+.product-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    margin: 5%;
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.product-detail-label {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000;
+}
+
+.product-detail-value {
+    font-size: 1em;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 0.5em;
+}
+
+.product-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 1em;
+    margin: 2%;
+    font-weight: bold;
+    line-height: 100%;
+    color: #000000;
+}
+
+.product-date {
+    margin-bottom: 15%;
+}
+
+@media only screen and (max-width: 60em) {
+    .product-card {
+        flex-direction: column;
+    }
+}
+
+.region-flag {
+    margin: 0.2rem;
+}
+
+/* Prod ref card style end */
+
+.product-buttons {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.product-viewcomponents {
+    margin: 0 1em 0 1em;
+}
+
+.product-page{
+  width: 100%;
+  display:flex;
+}
+
+
+/* for spinning loading icon */
+.loading-icon {
+    animation: spin 1s linear infinite;
+    margin: 2em;
+}
+
+/* for spinning loading icon */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
