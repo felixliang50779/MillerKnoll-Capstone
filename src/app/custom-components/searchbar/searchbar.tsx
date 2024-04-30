@@ -65,7 +65,7 @@ export default function SearchBar({ search, searchState, featureTab, isAuthentic
                     isAuthenticated !== 'true' || searchState ? <></> :
                     <Button
                         type='submit'
-                        disabled={isAuthenticated !== ''}
+                        disabled={isAuthenticated !== 'true'}
                         onClick={() => throttledSearch({content: searchText, currentTab: currentTab})}>
                             Search
                     </Button>
